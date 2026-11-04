@@ -1,5 +1,5 @@
 from pathlib import Path
 p=Path(__file__).parent
-head='''<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="description" content="Independent web studio creating distinctive bilingual websites for restaurants, nail salons and barbershops. Explore interactive business website demos."><meta name="theme-color" content="#172c25"><title>Web Studio — Websites for local businesses</title><link rel="stylesheet" href="assets/style.css"><script defer src="assets/app.js"></script></head>'''
-for page in ['index','restaurant','nails','barber']:
+head='''<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="description" content="Independent web studio creating distinctive bilingual websites for small businesses and individuals. Explore business websites, blogs, portfolios and birthday surprises."><meta name="theme-color" content="#172c25"><title>Web Studio — Websites for local businesses</title><link rel="stylesheet" href="assets/style.css"><script defer src="assets/personal.js"></script><script defer src="assets/app.js"></script></head>'''
+for page in ['index','restaurant','nails','barber','blog','birthday','portfolio']:
  (p/(page+'.html')).write_text(head+f'<body data-page="{page}"><div id="app"></div><dialog id="modal"></dialog></body></html>')

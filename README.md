@@ -26,3 +26,11 @@ GitHub Actions deploys on pushes to `main` with `.github/workflows/pages.yml`. I
 ## Images and typography
 
 Illustrative photography from Unsplash; original URLs are recorded in `assets/image-sources.json`. Photos are downloaded locally so they do not depend on a remote photo host at runtime. Images are not claimed as work by the fictional businesses. Google Fonts supplies DM Sans and Playfair Display; system fonts are available as fallbacks.
+
+## Personal website demos
+
+- `blog.html`: bilingual journal with category filters and sample article dialogs.
+- `birthday.html`: birthday greeting with a surprise message and memory gallery.
+- `portfolio.html`: fictional designer portfolio with concept-project details.
+
+The homepage supports Business and Personal filters across all six demos. Personal templates and interactions live in `assets/personal.js`. Portfolio artwork is an original inline SVG/CSS composition; sample names and project stories are fictional.
